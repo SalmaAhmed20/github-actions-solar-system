@@ -81,4 +81,5 @@ jobs:
           uses: docker/build-push-action@v7.2.0
           with:
             context: .
+            push: true
             tags: "ghcr.io/salmaahmed20/solar-system:${{ github.sha }}"
